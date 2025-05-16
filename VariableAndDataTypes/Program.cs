@@ -16,18 +16,17 @@ namespace Episode1VariableAndDataType
             dynamic sampleNumberDynamic = 5;
             Console.WriteLine("This is my sample: "+sampleNumber);
 
-
         }
     }
     public class Episode1Class
     {
+
         int sampleFieldInt = 5;
         static int sampleStaticInt = 6;
         readonly long sampleLong;
         readonly long sampleLong2 = 10;
         const int sampleIntnNaConst = 150;
         const float mathPi = 3.14f;
-
 
 
         public Episode1Class()
@@ -42,9 +41,6 @@ namespace Episode1VariableAndDataType
             var sampleLocalDouble = 2;
             sampleFieldInt = 1;
             sampleStaticInt = 2;
-
-
-
 
         }
         public void sampleMethod2()
