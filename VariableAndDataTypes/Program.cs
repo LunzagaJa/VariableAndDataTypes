@@ -20,14 +20,14 @@ namespace Episode1VariableAndDataType
     }
     public class Episode1Class
     {
-
+        #region -- Fields --
         int sampleFieldInt = 5;
         static int sampleStaticInt = 6;
         readonly long sampleLong;
         readonly long sampleLong2 = 10;
         const int sampleIntnNaConst = 150;
         const float mathPi = 3.14f;
-
+        #endregion
 
         public Episode1Class()
         {
