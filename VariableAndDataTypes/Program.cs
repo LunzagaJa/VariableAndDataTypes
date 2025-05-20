@@ -11,15 +11,24 @@ namespace Episode1VariableAndDataType
 
         static void Main(string[] args)
         {
+            #region -- Local Variables --
             int sampleNumber = 3;
             var sampleNumberImplicit = 3;
             dynamic sampleNumberDynamic = 5;
             Console.WriteLine("This is my sample: "+sampleNumber);
-
+            #endregion
+            
+            var episode1 = new Episode1Class();
+            Console.WriteLine(episode1.samplePublicInt);
+            episode1.samplePublicInt = 250;
+            Console.WriteLine(episode1.samplePublicInt);
         }
     }
     public class Episode1Class
     {
+        public int samplePublicInt = 500;
+        private int samperPrivateInt = 100;
+
         #region -- Fields --
         int sampleFieldInt = 5;
         static int sampleStaticInt = 6;
