@@ -35,7 +35,7 @@ namespace Episode1VariableAndDataType
 
 
             #endregion
-            
+            // delete this entire function
             // Parse and convert
             #region -- parse and convert --
             String textOne = "3";
