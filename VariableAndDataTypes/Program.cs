@@ -13,6 +13,7 @@ namespace Episode1VariableAndDataType
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Gwapo oka");
             #region -- Local Variables --
             int sampleNumber = 3;
             var sampleNumberImplicit = 3;
