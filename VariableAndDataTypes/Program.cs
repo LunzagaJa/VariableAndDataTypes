@@ -35,9 +35,9 @@ namespace Episode1VariableAndDataType
 
 
             #endregion
-
+            
             // Parse and convert
-
+            #region -- parse and convert --
             String textOne = "3";
             var intOne = int.Parse(textOne);
             var result = intOne * 5;
@@ -46,7 +46,7 @@ namespace Episode1VariableAndDataType
             var intConverted = Convert.ToInt32(textOne);
             result = intConverted * 6;
             Console.WriteLine($" Convert = Text one result: { result }");
-                
+            #endregion
         }
     }
     public class Episode1Class
