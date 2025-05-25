@@ -48,6 +48,35 @@ namespace Episode1VariableAndDataType
             result = intConverted * 6;
             Console.WriteLine($" Convert = Text one result: {result}");
             #endregion
+
+
+            String textThree = ":";
+            int intThree = 0;
+            intThree = 1 +9;
+            if (int.TryParse(textThree, out intThree))
+            {
+                Console.WriteLine($"TryParse = Text three result: {intThree}");
+            }
+            else
+            {
+                Console.WriteLine("TryParse = Text three is not a number");
+            }
+
+            //Inline variable declaration and initialization
+            String textFor = "**TEST**";
+            
+            
+            if (int.TryParse(textThree, out int intFour))
+            {
+                Console.WriteLine($"TryParse = Text three result: {intFour}");
+            }
+            else
+            {
+                Console.WriteLine("TryParse = Text Four is not a number");
+            }
+
+
+
         }
     }
     public class Episode1Class
